@@ -95,6 +95,7 @@
  * Wrap dropdown toggle text if too long.
  */
 #hdtbMenus .hdtb-mn-hd .mn-hd-txt {
+  color: var(--user-sidebar-primary-color) !important;
   white-space: normal !important;
 }
 
@@ -179,6 +180,17 @@
 #resultStats {
   top: 0 !important;
   opacity: 1 !important;
+}
+
+/**
+ * Keywords - Red highlight.
+ */
+
+#rcnt h3.r em,
+#rcnt span.tl em,
+#rcnt span.st em {
+    color: var(--user-sidebar-primary-color) !important;
+    font-weight: bold !important;
 }
 
 /* Main Content and Footer
